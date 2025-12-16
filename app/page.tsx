@@ -5,7 +5,7 @@ export default function Home() {
     <main className="container  max-w-[90%] mx-auto p-6 min-h-dvh grid place-items-center">
       <section className="*:lg:flex *:items-centre *:lg:justify-center *:lg:text-center">
         <span className="block  mb-12">
-          <Image src="" alt="" className="size-24 bg-gray-400 rounded-full" />
+          <div className="size-24 bg-gray-400 rounded-full" />
         </span>
         <h1 className="text-lg font-medium text-teal-700 capitalize mb-4">
           Hi, My name is Justin Bento.
