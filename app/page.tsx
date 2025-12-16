@@ -1,13 +1,13 @@
 export default function Home() {
   return (
     <main className="wrapper min-h-dvh grid items-center ">
-      <section className="flex flex-col items-center *:text-center">
+      <section className="flex flex-col items-start md:items-center *:md:text-center">
         <span className="block  mb-12">
           <div className="size-24 bg-gray-400 rounded-full" />
         </span>
         <div className="max-w-[90ch] *:text-balance space-y-3">
           <h1 className="text-lg">Hi, My name is Justin Bento.</h1>
-          <p className="text-4xl leading-[1.5] capitalize">
+          <p className="text-4xl leading-normal capitalize font-semibold">
             I'm A recent graduated from Humber College’s Multimedia Design &
             Development program.
           </p>
@@ -19,7 +19,7 @@ export default function Home() {
             land a job.
           </p>
         </div>
-        <span className="mt-12 block md:flex md:items-center md:gap-6">
+        <span className="mt-12 flex items-start md:items-center gap-6">
           <button className="py-5 px-8 text-sm leading-0 rounded-lg bg-teal-700 text-white font-semibold">
             View Projects
           </button>
