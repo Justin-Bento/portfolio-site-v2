@@ -23,6 +23,7 @@
   --background: var(--color-teal-50);
   --foreground: var(--color-teal-950);
   vertical-align: baseline;
+  font-family: "Switzer-Variable", Arial, Helvetica, sans-serif;
 }
 
 @theme inline {
@@ -42,7 +43,6 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Switzer-Variable", Arial, Helvetica, sans-serif;
 }
 .wrapper {
   width: 90%;
