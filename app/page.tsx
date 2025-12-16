@@ -1,17 +1,17 @@
 export default function Home() {
   return (
     <main className="wrapper min-h-dvh grid items-center ">
-      <section className="flex flex-col items-start md:items-center *:md:text-center">
+      <section className="flex flex-col items-start md:items-center *:text-xl/relaxed *:text-center *:[&:not(:first-child)]:mt-6">
         <span className="block  mb-12">
           <div className="size-24 bg-gray-400 rounded-full" />
         </span>
-        <div className="max-w-[90ch] *:text-balance space-y-3">
-          <h1 className="text-lg">Hi, My name is Justin Bento.</h1>
-          <p className="text-4xl leading-normal capitalize font-semibold">
+        <div className="max-w-[95ch] *:text-balance space-y-3">
+          <h1 className="">Hi, My name is Justin Bento.</h1>
+          <p className="scroll-m-20 text-center text-5xl/snug capitalize font-extrabold text-balance">
             I'm A recent graduated from Humber College’s Multimedia Design &
             Development program.
           </p>
-          <p className="text-lg leading-8 tracking-wide">
+          <p className="">
             My goal is to become a professional website developer that knows how
             to design. During my time at Humber, I learned a lot about design
             and development after I graudate I plan on continuing my education
