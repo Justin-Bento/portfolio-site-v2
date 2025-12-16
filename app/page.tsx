@@ -11,7 +11,7 @@ export default function Home() {
             I'm A recent graduated from Humber College’s Multimedia Design &
             Development program.
           </p>
-          <p className="">
+          <p className="tracking-wide">
             My goal is to become a professional website developer that knows how
             to design. During my time at Humber, I learned a lot about design
             and development after I graudate I plan on continuing my education
