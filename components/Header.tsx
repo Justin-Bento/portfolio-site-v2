@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header>
+    <header className="bg-teal-50">
       <p>This is a Header</p>
     </header>
   );
