@@ -10,21 +10,13 @@
 */
 @font-face {
   font-family: "Switzer-Variable";
-  src: url("../assets/fonts/Switzer-Variable.woff2") format("woff2"),
-    url("../assets/fonts/Switzer-Variable.woff") format("woff"),
-    url("../assets/fonts/Switzer-Variable.ttf") format("truetype");
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
+  src: url("../public/assets/fonts/switzer/Switzer-Variable.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: "Switzer-VariableItalic";
-  src: url("../assets/fonts/Switzer-VariableItalic.woff2") format("woff2"),
-    url("../assets/fonts/Switzer-VariableItalic.woff") format("woff"),
-    url("../assets/fonts/Switzer-VariableItalic.ttf") format("truetype");
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: italic;
+  src: url("../public/assets/fonts/switzer/Switzer-VariableItalic.ttf")
+    format("truetype");
 }
 
 :root {
@@ -50,5 +42,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Switzer-Variable", Arial, Helvetica, sans-serif;
 }
