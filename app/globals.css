@@ -44,3 +44,8 @@ body {
   color: var(--foreground);
   font-family: "Switzer-Variable", Arial, Helvetica, sans-serif;
 }
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: var(--container-7xl);
+}
