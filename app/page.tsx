@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="wrapper min-h-dvh grid items-center ">
       <section className="flex flex-col items-start md:items-center *:text-xl/relaxed *:text-center *:[&:not(:first-child)]:mt-6">
-        <span className="block  mb-12">
+        <span className="block">
           <div className="size-24 bg-gray-400 rounded-full" />
         </span>
         <div className="max-w-[95ch] *:text-balance space-y-3">
