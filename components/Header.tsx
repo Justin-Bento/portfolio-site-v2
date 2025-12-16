@@ -4,9 +4,10 @@ export default function Header() {
   return (
     <header className="bg-teal-50 shadow-sm shadow-teal-950/10 border-b border-teal-950/10">
       <div className="wrapper p-6 grid grid-cols-1 lg:grid-cols-2 lg:items-center">
-        <div className="">
-          <p>This is a Header</p>
-        </div>
+        <ul className="lg:flex lg:items-center lg:justify-between">
+          <li>Logo</li>
+          <li className="lg:hidden">Menu</li>
+        </ul>
         <ul className="hidden lg:flex lg:items-center lg:justify-end lg:gap-4">
           <li>Home</li>
           <li>About</li>
