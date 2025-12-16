@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Header() {
   return (
     <header className="bg-teal-50 shadow-sm shadow-teal-950/10 border-b border-teal-950/10">
