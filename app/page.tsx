@@ -21,9 +21,13 @@ export default function Home() {
           website development through Harvard CS50 and The Odin Project and land
           a job.
         </p>
-        <span className="mt-12 block lg:gap-x-4">
-          <button className="">View Projects</button>
-          <button className="">Let's Talk</button>
+        <span className="mt-12 block gap-4 lg:flex lg:items-center lg:justify-center">
+          <button className="py-5 px-8 text-sm leading-0 rounded-lg bg-teal-700 text-white font-semibold">
+            View Projects
+          </button>
+          <button className="py-5 px-8 text-sm leading-0 rounded-lg bg-teal-200 text-teal-800 font-semibold">
+            Let's Talk
+          </button>
         </span>
       </section>
     </main>
