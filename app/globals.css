@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  vertical-align: baseline;
 }
 
 @theme inline {
